@@ -1,4 +1,4 @@
-# 376 Hotel Golf Story Card
+# 376 India Story Card
 
 [376/home](https://gist.github.com/barrycumbie/83326a1ffcab7434abf9392795336d93)
 
@@ -6,32 +6,27 @@
 
 **As A** data enterer person  
 
-**I want** a nice, clean, logical web form
+**I want** a <del>nice, clean, logical web form</del> web form with validation 
 
-**So that** I can give you my data! 
+**So that** I can give you my <ins>correct</ins> data! 
 
 ## Comments / Narrative
-- create a new, single web page
-- make up some name or reason for your user, a store or signup for underwater team bingo. 
-  - page should have enough info to inform/guide the user
-- create the interface and style 
-  - (no '<script>' needed this time!...but do have a place for it...initialize jQuerry)
-- set up a good dir structure, naming, repo, and all that 
-- use bootstrap5 classes first (before making your own style)
-- include the gamut of '<input>' and data types: 
-  - text entry: name, numbers (eg. ph#, credit, SSN), password (show it!?), email
-  - date and time
-  - check and option boxes 
-  - buttons 
-  - flow control ones (if I select this, I get this option) 
-  - clear, submit
-  - default input, help info, examples
+- build off of your form in Hotel Lab
+- add in appropriate validation per each area of user input
+  - which are required / optional
+  - lengths
+  - data types
+  - min / max (for dates too)
+  - valid   
+- add in tips/info for the user
+- add in an overall form submit event
+- create the function for dependent input: one value determines what another one shows
 
 ## Min. Acceptance Criteria
-- [ ] 10/sumbit working link, links to repo & validity (all valid) 
-- [ ] 5/super clean repo & dir (no partial credit) 
-- [ ] 10/super clean code: id's, classes, naming, format "pretty", no extras
-- [ ] 5/COMMENTS in CODE, author and talk to me
-- [ ] 10/all required inputs
-- [ ] 5/page has info and context
-- [ ] 5/fridge factor 
+- [X] 10/sumbit working link, links to repo & validity (all valid) 
+- [X] 5/super clean repo & dir (no partial credit) 
+- [X] 5/COMMENTS in CODE: f/ns explained
+- [X] 10/input validation f/ns
+- [X] 10/input instructions for user 
+- [ ] 5/code for dependent input 
+- [X] 5/submit event 
